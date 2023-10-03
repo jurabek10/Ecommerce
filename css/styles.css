@@ -314,3 +314,148 @@ main {
 .images__img:active {
     opacity: 0.6;
 }
+
+
+.main-page__info-wrapper {
+    width: 100%;
+    max-width: 445px;
+}
+
+.main-page__company-name {
+    margin-top: 62px;
+    margin-bottom: 27px;
+    color: var(--orange);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.main-page__title {
+    margin-top: 0;
+    margin-bottom: 32px;
+    color: var(--black);
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.main-page__text {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.main-page__sale-wrapper {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.main-page__discount-price {
+    margin: 0;
+    margin-right: 16px;
+    color: var(--black);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main-page__discount-percent {
+    padding: 7px 8px 4px;
+    margin: 0;
+    color: var(--orange);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #FFEEE2;
+    border-radius: 6px;
+}
+
+.main-page__real-price {
+    margin-top: 0;
+    margin-bottom: 32px;
+    color: #B6BCC8;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: line-through;
+}
+
+.main-page__button-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.main-page__button-list {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    padding: 23px 16px 17px;
+    margin: 0;
+    background-color: #F6F8FD;
+    border-radius: 10px;
+    list-style: none;
+}
+
+.main-page__button__item:not(:last-child) {
+    margin-right: 45.5px;
+}
+
+
+.main-page__button-number {
+    margin: 0;
+    color: var(--black);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.main-page__button-link:hover {
+    opacity: 0.8;
+}
+
+.main-page__button-link:active {
+    opacity: 0.6;
+}
+
+.main-page__button-icon {
+    width: 12px;
+    height: 12px;
+    object-fit: contain;
+}
+
+.main-page__main-buttton {
+    display: flex;
+    align-items: center;
+    padding: 23px 76px;
+    margin-left: 16px;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: var(--orange);
+    box-shadow: 0px 20px 50px -20px #FF7E1B;
+    border-radius: 10px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.main-page__main-buttton:hover {
+    opacity: 0.8;
+}
+
+.main-page__main-buttton:active {
+    opacity: 0.6;
+}
+
+.main-page__main-button-bogie {
+    margin-right: 16px;
+}
